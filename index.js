@@ -24,12 +24,13 @@ const votingAge = 18;
 
 if (votingAge >= 18) {
   console.log("true");
+}
 // }
 // console.log;
 
 /*
 Task 1b - Values
-
+g
 Do the following:   
    1. Declare two variables and assign them values
    2. Use a conditional to change the value of the 1st variable based on the value assigned to the 2nd variable
@@ -38,7 +39,7 @@ Do the following:
    HINT: no function required
 */
 let var1 = 1;
-let var2 = 2;
+let var2 = 7;
 var1 = var2;
 console.log(var1, var2);
 /*
@@ -51,8 +52,7 @@ Do the following:
 
    HINT: look up the Number method
 */
-let stringToConvert = '5'
-parseInt(stringToConvert)
+
 /*
 Task 1d - Multiply
  
