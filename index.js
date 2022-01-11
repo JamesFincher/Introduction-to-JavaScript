@@ -110,8 +110,22 @@ Puppies less than 1 year
 NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */
 
-function hungryDog(/*add your code here*/) {
-  /*add your code here*/
+function hungryDog(weight, age) {
+  if (age <= 5) {
+    return weight * 0.05;
+  } else if (age <= 10) {
+    return weight * 0.04;
+  } else if (age <= 15) {
+    return weight * 0.3;
+  } else if (age > 15) {
+    return weight * 0.2;
+  } else if (age < 0.0 && age < 0.333) {
+    return weight * 0.1;
+  } else if ((age > 0.333) & (age < 0.583)) {
+    return weight * 0.05;
+  } else {
+    return weight * 0.04;
+  }
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -136,10 +150,29 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
-
+var randomNumber = Math.floor(Math.random) * 3;
 function game(user, computer) {
-  /*add your code here*/
+  // if (randomNumber === 1) {
+  //   computer = "rock";
+  // } else if (randomNumber === 2) {
+  //   computer = "paper";
+  // } else {
+  //   computer = "scissors";
+  // }
+
+  if (user === computer) {
+    return "it's a tie";
+  } else if (user === 1 && computer === 2) {
+    return "you win!";
+  } else if (user === 2 && computer === ro1ck) {
+    return "you win!";
+  } else if (user === 3 && computer === 3) {
+    return "you win!";
+  } else {
+    return "you lose!";
+  }
 }
+/*add your code here*/
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -152,8 +185,9 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/) {
-  /*add your code here*/
+function miles(km) {
+  miles = km * 0.621371;
+  return miles;
 }
 
 //Task 5b - Feet to CM
