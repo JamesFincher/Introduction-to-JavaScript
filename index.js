@@ -20,7 +20,12 @@ Do the following:
    HINT: no function required
 */
 
+const votingAge = 18;
 
+if (votingAge >= 18) {
+  console.log("true");
+// }
+// console.log;
 
 /*
 Task 1b - Values
@@ -32,11 +37,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
-
-
+let var1 = 1;
+let var2 = 2;
+var1 = var2;
+console.log(var1, var2);
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -47,10 +51,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
-
-
+let stringToConvert = '5'
+parseInt(stringToConvert)
 /*
 Task 1d - Multiply
  
@@ -60,11 +62,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
+function multiply(/*add your code here*/) {
   /*add your code here*/
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -76,11 +76,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
+function dogYears(/*add your code here*/) {
   /*add your code here*/
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -107,13 +105,11 @@ Puppies less than 1 year
    7 - 12 months 4% of their body weight
   
 NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
-*/  
+*/
 
-function hungryDog(/*add your code here*/){
+function hungryDog(/*add your code here*/) {
   /*add your code here*/
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -138,16 +134,14 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
-function game(user, computer){
+function game(user, computer) {
   /*add your code here*/
 }
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
-//Metric Converter 
-//Task 5a - KM to Miles 
+//Metric Converter
+//Task 5a - KM to Miles
 /*
 Using the miles function below do the following:
 1. Receive a number of kilometers
@@ -155,11 +149,9 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
+function miles(/*add your code here*/) {
   /*add your code here*/
 }
-
-
 
 //Task 5b - Feet to CM
 /*
@@ -169,11 +161,9 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
+function feet(/*add your code here*/) {
   /*add your code here*/
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -185,10 +175,9 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(/*add your code here*/) {
+  /*add your code here*/
 }
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -205,11 +194,9 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(/*Your Code here */) {
+  /*Your Code here */
 }
-
-
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
@@ -223,17 +210,14 @@ HINT - you may need to study tomorrow's content on arrays
 HINT - try looking up the .includes() method
 */
 
-
 function vowelCounter(/*add your code here*/) {
   /*add your code here*/
 }
 
-
-
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
-function foo(){
-  console.log('its working');
-  return 'bar';
+function foo() {
+  console.log("its working");
+  return "bar";
 }
 foo();
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Don't touch the code after this line! 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
@@ -246,5 +230,5 @@ module.exports = {
   miles,
   feet,
   annoyingSong,
-  grade
-}
+  grade,
+};
